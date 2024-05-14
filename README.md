@@ -70,6 +70,17 @@ int verde[n];
 int aguarde[n] = {1,1,1,1};
 ```
 
+## Verificação das Propriedades
+
+As seguintes propriedades foram satisfeitas:
+
+```
+A[] not deadlock
+```
+```
+E<> (Semaforo0.Verde imply Semaforo1.Verde) && (Semaforo1.Verde imply Semaforo2.Verde) && (Semaforo2.Verde imply Semaforo3.Verde)
+```
+
 ## Simulação
 
 Para simular o projeto, basta utilizar o arquivo `onda-verde.xml` junto com o software **UPPAAL**.  
