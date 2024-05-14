@@ -34,12 +34,12 @@ O funcionamento dos Semáforos deve seguir a temporização do diagrama abaixo:
 
 Temos duas estruturas básicas criadas para o funcionamento da onda verde:
 
-- Semáforo </br>
+### Semáforo
 ![Modelo do Semáforos](data/semaforo.png)
 
 O modelo do Semáforo funciona de modo semelhante a um semáforo real com mudanças cronometradas de vermelho para verde, de verde para amarelo e de amarelo para vermelho. </br>
 
-- Via </br>
+### Via
 ![Modelo da Via](data/via.png)
 
 O modelo da Via representa a liberação ou aguardo da via como um todo a partir do funcionamento do semáforo, logo, todos os veículos que estão naquela determinada via durante o sinal verde estão liberados para passar para as proximas vias adiantes, ou aguardar enquanto o sinal daquela via está no vermelho.  
